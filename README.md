@@ -60,3 +60,7 @@ using 'NEWS_CATCHER_API_KEY' name. You can provide query, country and payload to
 
 ## Pokemon
 To use the pokemon api you need to use 'https://pokeapi.co/api/v2/pokemon/'. Using this api you will get pokemon information.
+
+## URL Shorten
+To use the url shorten you have to get the API key from 'https://dev.bitly.com/'. To use it need to export the API key 
+using 'URL_SHORTEN_API_KEY' name. Now call 'get_short_url' this method by providing the url you want to short.
