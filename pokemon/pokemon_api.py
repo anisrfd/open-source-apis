@@ -1,7 +1,7 @@
 import requests
 import logging
 
-from pokemon.exceptions import PokemonFetchFailedException
+from exceptions.exceptions import PokemonFetchFailedException
 
 log = logging.getLogger(__name__)
 

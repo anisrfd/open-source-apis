@@ -2,7 +2,7 @@ import requests
 import logging
 import os
 
-from news_catcher.exceptions import NewsCatcherFailedException
+from exceptions.exceptions import NewsCatcherFailedException
 
 log = logging.getLogger(__name__)
 

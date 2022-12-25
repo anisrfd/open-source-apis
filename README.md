@@ -63,4 +63,8 @@ To use the pokemon api you need to use 'https://pokeapi.co/api/v2/pokemon/'. Usi
 
 ## URL Shorten
 To use the url shorten you have to get the API key from 'https://dev.bitly.com/'. To use it need to export the API key 
-using 'URL_SHORTEN_API_KEY' name. Now call 'get_short_url' this method by providing the url you want to short.
+using 'URL_SHORTEN_API_KEY' name. Now call 'get_short_url' method by providing the url you want to short.
+
+## Movie Database
+To use the movie database you have to get the API key from 'https://www.themoviedb.org/documentation/api'. To use it need to export the API key 
+using 'MOVIE_DATABASE_API_KEY' name. Now call 'get_movie' to get the movie information.

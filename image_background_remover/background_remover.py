@@ -2,7 +2,7 @@ import logging
 import os
 import requests
 
-from image_background_remover.exceptions import ImageBackgroundRemoveFailedException
+from exceptions.exceptions import ImageBackgroundRemoveFailedException
 
 log = logging.getLogger(__name__)
 

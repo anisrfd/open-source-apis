@@ -2,7 +2,7 @@ import logging
 import os
 import bitly_api
 
-from url_shorten.exceptions import URLShortenFailedException
+from exceptions.exceptions import URLShortenFailedException
 
 log = logging.getLogger(__name__)
 
