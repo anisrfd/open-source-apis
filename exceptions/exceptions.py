@@ -31,3 +31,24 @@ class URLShortenFailedException(Exception):
     Exception raised if url shorten api failed to get short url
     """
     pass
+
+
+class FoodRecipeFailedException(Exception):
+    """
+    Exception raised if food recipe api failed to get recipe info
+    """
+    pass
+
+
+class FoodRecipeIngredientsFailedException(Exception):
+    """
+    Exception raised if food recipe ingredients failed to get recipe ingredients
+    """
+    pass
+
+
+class FoodRecipeJokeFailedException(Exception):
+    """
+    Exception raised if food recipe joke failed to get a recipe joke
+    """
+    pass

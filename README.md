@@ -68,3 +68,8 @@ using 'URL_SHORTEN_API_KEY' name. Now call 'get_short_url' method by providing t
 ## Movie Database
 To use the movie database you have to get the API key from 'https://www.themoviedb.org/documentation/api'. To use it need to export the API key 
 using 'MOVIE_DATABASE_API_KEY' name. Now call 'get_movie' to get the movie information.
+
+## Food Recipe
+To use the food recipe api you have to get the API key from 'https://spoonacular.com/'. To use it need to export the API key 
+using 'FOOD_RECIPE_API_KEY' name. Now call 'get_recipe_info' to get recipe information by providing recipe id and if you don't provide id then you 
+will get a random recipe, 'get_recipe_ingredients' to get a food recipe ingredients by proving ingredients, 'get_recipe_joke' to get a recipe joke.
